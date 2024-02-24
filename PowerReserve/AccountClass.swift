@@ -6,3 +6,13 @@
 //
 
 import Foundation
+
+class Account {
+    var favoriteContacts: [String]
+    var mileRadius: Int
+    
+    init(favoriteContacts: [String], mileRadius: Int) {
+        self.favoriteContacts = favoriteContacts
+        self.mileRadius = mileRadius
+    }
+}
