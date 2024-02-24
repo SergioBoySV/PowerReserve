@@ -1,5 +1,5 @@
 //
-//  SwiftUIView2.swift
+//  RidesView.swift
 //  PowerReserve
 //
 //  Created by Sergio Villarreal on 2/24/24.
@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct SwiftUIView2: View {
+struct RidesView: View {
     var body: some View {
-        Text("secondUI")
+        Text("Rides Page")
     }
 }
 
 #Preview {
-    SwiftUIView2()
+    RidesView()
 }
