@@ -32,7 +32,12 @@ struct ProfileView: View {
         ScrollView {
             VStack(alignment: .leading, spacing: 20) {
                 
-                // -------------------------- //
+                
+                Text("Bob Builder\n")
+                    .font(.largeTitle)
+
+                
+          /*      // -------------------------- //
                 RoundedRectangle(cornerRadius: 10)
                     .fill(Color.gray.opacity(0.1))
                     .overlay(
@@ -44,9 +49,9 @@ struct ProfileView: View {
                     )
                     .frame(height: 40)
                 // -------------------------- //
-                
+                */
                 // -------------------------- //
-                RoundedRectangle(cornerRadius: 10)
+             /*   RoundedRectangle(cornerRadius: 10)
                     .fill(Color.gray.opacity(0.1))
                     .overlay(
                         HStack {
@@ -57,28 +62,29 @@ struct ProfileView: View {
                     )
                     .frame(height: 40)
                 // -------------------------- //
-                
+                */
                 
                 // -------------------------- //
-                Text("Choose radius in miles")
+                Text(" Choose radius in miles")
+                    .font(.headline)
                 Picker(selection: $mapRadius, label: /*@START_MENU_TOKEN@*/Text("Picker")/*@END_MENU_TOKEN@*/) {
                     Text("10").tag(10)
                     Text("20").tag(20)
                     Text("30").tag(30)
                 } .pickerStyle(SegmentedPickerStyle())
-                Text("\(mapRadius)") /* Debugging */
+                    
+               /* Debugging */
                 // -------------------------- //
                 
                 // -------------------------- //
                 Toggle(isOn: $isToggled) {
-                    Text("Auto Text").font(.headline)
+                    Text("Auto Text")
+                        .font(.headline)
                 }.padding()
                 
-                Text("Toggle is \(isToggled ? "On" : "Off")")
-                    .padding() /* Debugging*/
-                // -------------------------- //
-                
-                Text("Emergency Contacts").font(.headline)
+            
+                  
+              //  Text("Emergency Contacts").font(.headline)
                 
                 
             } /* VSTACK */

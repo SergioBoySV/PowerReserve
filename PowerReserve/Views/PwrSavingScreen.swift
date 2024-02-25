@@ -40,7 +40,7 @@ struct PwrSavingScreen: View {
                 Text("Uber: " + uniqueIdentifier)
                     .font(.headline)
                     .foregroundColor(Color(UIColor.init(displayP3Red: 0.2, green: 0.4, blue: 0.2, alpha: 1.0)))
-            }
+            }.navigationBarBackButtonHidden()
         }
     }
     
