@@ -21,9 +21,9 @@ struct RidesView: View {
                         var fName = chooseRandomEntry(from: firstNames)
                         var car = chooseRandomEntry(from: vehicles)
                         var eta = randomInt(from: 15, to: 50)
-                        Text("Driver Name: " + (fName ?? "ERROR"))
-                        Text("Driver Vehicle: " + (car ?? "ERROR"))
-                        Text("APROX ETA: \(eta)")
+                        Text((fName ?? "ERROR"))
+                        Text((car ?? "ERROR"))
+                        Text("ETA: \(eta)")
                     }
                     .padding(.vertical, 8) // Add vertical padding between VStack elements
                     

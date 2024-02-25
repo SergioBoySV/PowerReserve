@@ -15,7 +15,7 @@ struct LoginView: View {
         GeometryReader { geometry in
             VStack {
                 Spacer()
-                Image("logo")
+                Image("")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: geometry.size.width * 0.5)

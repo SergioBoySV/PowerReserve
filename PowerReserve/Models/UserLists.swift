@@ -12,7 +12,7 @@ let firstNames = ["Sergio", "Megan", "Ivan", "Emily", "Guster", "Cale", "Heather
 
 let lastNames = ["Fitzgerald", "Chapman", "Vega", "Ward", "Acosta", "Knight", "Huang", "Carr", "Zuniga", "Robles", "Lin", "Rocha", "Price", "Villegas", "Mcdonald", "Greene", "Velazquez", "Pugh", "Oconnor", "Novak", "Bishop", "Hendricks", "Winters", "Hayes", "Wood", "Mcclain", "Mullen", "Maldonado", "Soto", "Wheeler",]
 
-let vehicles = ["Volkswagen"]
+let vehicles = ["Volkswagen", "Cadillac Escalade", "Audi A1", "Honda Accord", "Dodge Durango"]
 
 func chooseRandomEntry(from array: [String]) -> String?
 {
@@ -22,3 +22,4 @@ func chooseRandomEntry(from array: [String]) -> String?
 func randomInt(from min: Int, to max: Int) -> Int {
     return Int.random(in: min...max)
 }
+
