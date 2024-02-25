@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C524E1D72B8B464400F4B68C /* ContactsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C524E1D62B8B464400F4B68C /* ContactsModel.swift */; };
 		F70DAD792B8A519C00FEA8CE /* PowerReserveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70DAD782B8A519C00FEA8CE /* PowerReserveApp.swift */; };
 		F70DAD7D2B8A519D00FEA8CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F70DAD7C2B8A519D00FEA8CE /* Assets.xcassets */; };
 		F70DAD802B8A519D00FEA8CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F70DAD7F2B8A519D00FEA8CE /* Preview Assets.xcassets */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C524E1D62B8B464400F4B68C /* ContactsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsModel.swift; sourceTree = "<group>"; };
 		F70DAD752B8A519C00FEA8CE /* PowerReserve.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PowerReserve.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F70DAD782B8A519C00FEA8CE /* PowerReserveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerReserveApp.swift; sourceTree = "<group>"; };
 		F70DAD7C2B8A519D00FEA8CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				F70DAD8A2B8A689B00FEA8CE /* UserClass.swift */,
 				F70DAD8C2B8A6A3900FEA8CE /* AccountClass.swift */,
 				F7D482432B8AE5C6008935C1 /* Location.swift */,
+				C524E1D62B8B464400F4B68C /* ContactsModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 				F7D482482B8AE894008935C1 /* Testing.swift in Sources */,
 				F7D482402B8AC55E008935C1 /* MapView.swift in Sources */,
 				F7D4823D2B8A8A9F008935C1 /* ContactsView.swift in Sources */,
+				C524E1D72B8B464400F4B68C /* ContactsModel.swift in Sources */,
 				F70DAD792B8A519C00FEA8CE /* PowerReserveApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,6 +338,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"PowerReserve/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSContactsUsageDescription = "Can we access your contacts for emergency puposes?";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to function";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -363,6 +368,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"PowerReserve/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSContactsUsageDescription = "Can we access your contacts for emergency puposes?";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to function";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
