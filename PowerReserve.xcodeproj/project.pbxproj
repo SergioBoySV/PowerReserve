@@ -13,7 +13,6 @@
 		F70DAD892B8A581E00FEA8CE /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70DAD882B8A581E00FEA8CE /* Contacts.swift */; };
 		F70DAD8B2B8A689B00FEA8CE /* UserClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70DAD8A2B8A689B00FEA8CE /* UserClass.swift */; };
 		F70DAD8D2B8A6A3900FEA8CE /* AccountClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70DAD8C2B8A6A3900FEA8CE /* AccountClass.swift */; };
-		F7D4822D2B8A73F9008935C1 /* LoginPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D4822C2B8A73F9008935C1 /* LoginPageView.swift */; };
 		F7D482312B8A75AC008935C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D482302B8A75AC008935C1 /* ContentView.swift */; };
 		F7D482352B8A81DB008935C1 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D482342B8A81DB008935C1 /* ProfileView.swift */; };
 		F7D482372B8A852A008935C1 /* RidesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D482362B8A852A008935C1 /* RidesView.swift */; };
@@ -30,7 +29,6 @@
 		F70DAD882B8A581E00FEA8CE /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
 		F70DAD8A2B8A689B00FEA8CE /* UserClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserClass.swift; sourceTree = "<group>"; };
 		F70DAD8C2B8A6A3900FEA8CE /* AccountClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountClass.swift; sourceTree = "<group>"; };
-		F7D4822C2B8A73F9008935C1 /* LoginPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageView.swift; sourceTree = "<group>"; };
 		F7D482302B8A75AC008935C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F7D482342B8A81DB008935C1 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		F7D482362B8A852A008935C1 /* RidesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidesView.swift; sourceTree = "<group>"; };
@@ -91,7 +89,6 @@
 			isa = PBXGroup;
 			children = (
 				F7D482302B8A75AC008935C1 /* ContentView.swift */,
-				F7D4822C2B8A73F9008935C1 /* LoginPageView.swift */,
 				F7D482342B8A81DB008935C1 /* ProfileView.swift */,
 				F7D482362B8A852A008935C1 /* RidesView.swift */,
 				F7D4823A2B8A87EA008935C1 /* MapView.swift */,
@@ -190,7 +187,6 @@
 			files = (
 				F7D482372B8A852A008935C1 /* RidesView.swift in Sources */,
 				F7D482352B8A81DB008935C1 /* ProfileView.swift in Sources */,
-				F7D4822D2B8A73F9008935C1 /* LoginPageView.swift in Sources */,
 				F7D4823B2B8A87EA008935C1 /* MapView.swift in Sources */,
 				F70DAD8D2B8A6A3900FEA8CE /* AccountClass.swift in Sources */,
 				F7D482392B8A87C9008935C1 /* MapLogic.swift in Sources */,
