@@ -24,6 +24,7 @@ struct MapView: View {
                 let region = MKCoordinateRegion(center: center, span: span)
                 self.region = region
             }
+            .ignoresSafeArea()
     }
 }
 

@@ -29,60 +29,67 @@ struct ProfileView: View {
 
     
     var body: some View {
-        VStack(alignment: .leading, spacing: 20) {
+        ScrollView {
+            VStack(alignment: .leading, spacing: 20) {
+                
+                // -------------------------- //
+                RoundedRectangle(cornerRadius: 10)
+                    .fill(Color.gray.opacity(0.1))
+                    .overlay(
+                        HStack {
+                            Text("Name: \(user.firstName)")
+                                .padding(.horizontal)
+                            Spacer()
+                        }
+                    )
+                    .frame(height: 40)
+                // -------------------------- //
+                
+                // -------------------------- //
+                RoundedRectangle(cornerRadius: 10)
+                    .fill(Color.gray.opacity(0.1))
+                    .overlay(
+                        HStack {
+                            Text("Username: \(user.lastName)")
+                                .padding(.horizontal)
+                            Spacer()
+                        }
+                    )
+                    .frame(height: 40)
+                // -------------------------- //
+                
+                
+                // -------------------------- //
+                Text("Choose radius in miles")
+                Picker(selection: $mapRadius, label: /*@START_MENU_TOKEN@*/Text("Picker")/*@END_MENU_TOKEN@*/) {
+                    Text("10").tag(10)
+                    Text("20").tag(20)
+                    Text("30").tag(30)
+                } .pickerStyle(SegmentedPickerStyle())
+                Text("\(mapRadius)") /* Debugging */
+                // -------------------------- //
+                
+                // -------------------------- //
+                Toggle(isOn: $isToggled) {
+                    Text("Auto Text").font(.headline)
+                }.padding()
+                
+                Text("Toggle is \(isToggled ? "On" : "Off")")
+                    .padding() /* Debugging*/
+                // -------------------------- //
+                
+                Spacer()
+                Spacer()
+                
+                Text("Emergency Contacts").font(.headline)
+                
+                
+            } /* VSTACK */
+            .padding()
+            .padding(.top) // Add extra padding at the top
             
-            // -------------------------- //
-            RoundedRectangle(cornerRadius: 10)
-                .fill(Color.gray.opacity(0.1))
-                .overlay(
-                    HStack {
-                        Text("Name: \(user.firstName)")
-                            .padding(.horizontal)
-                        Spacer()
-                    }
-                )
-                .frame(height: 40)
-            // -------------------------- //
             
-            // -------------------------- //
-            RoundedRectangle(cornerRadius: 10)
-                .fill(Color.gray.opacity(0.1))
-                .overlay(
-                    HStack {
-                        Text("Username: \(user.lastName)")
-                            .padding(.horizontal)
-                        Spacer()
-                    }
-                )
-                .frame(height: 40)
-            // -------------------------- //
-            
-            
-            // -------------------------- //
-            Text("Choose radius in miles")
-            Picker(selection: $mapRadius, label: /*@START_MENU_TOKEN@*/Text("Picker")/*@END_MENU_TOKEN@*/) {
-                Text("10").tag(10)
-                Text("20").tag(20)
-                Text("30").tag(30)
-            } .pickerStyle(SegmentedPickerStyle())
-            Text("\(mapRadius)") /* Debugging */
-            // -------------------------- //
-            
-            // -------------------------- //
-            Toggle(isOn: $isToggled) {
-                Text("Auto Text").font(.headline)
-            }.padding()
-            
-            Text("Toggle is \(isToggled ? "On" : "Off")")
-                .padding() /* Debugging*/
-            // -------------------------- //
-            
-            
-            Spacer()
-            Spacer()
         }
-        .padding()
-        .padding(.top) // Add extra padding at the top
     }
 }
 

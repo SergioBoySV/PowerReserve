@@ -9,7 +9,25 @@ import SwiftUI
 
 struct RidesView: View {
     var body: some View {
-        Text("Rides Page")
+
+        let items = ["Item 1", "Item 2", "Item 3"]
+
+        ZStack{
+
+            Color(.black)
+                .ignoresSafeArea()
+
+            VStack{
+
+                Text("Rides Page")
+                    .foregroundColor(Color.red)
+                List(items, id: .self) { item in
+                    Text(item + "\t\t\t\t\t\tCall Message")
+                }
+                //.navigationBarTitle("List")
+
+            }
+        }
     }
 }
 
