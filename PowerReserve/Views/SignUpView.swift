@@ -11,6 +11,7 @@ struct SignUpView: View {
     @State private var username: String = ""
     @State private var password: String = ""
     @State private var confirmPassword: String = ""
+    @State private var passwordsMatch: Bool = true
     
     var body: some View {
 //        NavigationView {
@@ -43,6 +44,12 @@ struct SignUpView: View {
                         .cornerRadius(5.0)
                         .padding(.bottom, 20)
                     
+                    if !passwordsMatch {
+                                        Text("Passwords do not match")
+                                            .foregroundColor(.red)
+                                            .padding(.bottom, 20)
+                                    }
+                    
                     NavigationLink(destination: TabViewWrapper()) { /* ??? Doesnt work in preview but it builds and works fine */
                         Text("Sign Up")
                             .font(.headline)
@@ -52,7 +59,9 @@ struct SignUpView: View {
                             .background(Color.blue)
                             .cornerRadius(5.0)
                     }
-                    
+                    .simultaneousGesture(TapGesture().onEnded {
+                                        self.passwordsMatch = self.password == self.confirmPassword
+                                    })
                     Spacer()
                 }
                 .padding()

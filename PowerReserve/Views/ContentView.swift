@@ -12,13 +12,6 @@ struct TabViewWrapper: View {
     var body: some View {
         TabView {
             NavigationView {
-                ProfileView()
-            }.tabItem {
-                Image(systemName: "person")
-                Text("Profile")
-            }
-            
-            NavigationView {
                 MapView()
             }.tabItem {
                 Image(systemName: "map.circle")
@@ -37,6 +30,13 @@ struct TabViewWrapper: View {
             }.tabItem {
                 Image(systemName: "car")
                 Text("Rides")
+            }
+            
+            NavigationView {
+                ProfileView()
+            }.tabItem {
+                Image(systemName: "person")
+                Text("Profile")
             }
             
         }.accentColor(.red)

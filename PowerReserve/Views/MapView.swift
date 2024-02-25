@@ -21,7 +21,7 @@ struct MapView: View {
     var body: some View {
         Map(coordinateRegion: $region, showsUserLocation: true)
             .onAppear {
-                let span = MKCoordinateSpan(latitudeDelta: 0.02, longitudeDelta: 0.02)
+                let span = MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01)
                 let center = CLLocationCoordinate2D(latitude: 29.421956, longitude: -98.496659)
                 let region = MKCoordinateRegion(center: center, span: span)
                 self.region = region
