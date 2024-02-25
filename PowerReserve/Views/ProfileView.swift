@@ -78,9 +78,6 @@ struct ProfileView: View {
                     .padding() /* Debugging*/
                 // -------------------------- //
                 
-                Spacer()
-                Spacer()
-                
                 Text("Emergency Contacts").font(.headline)
                 
                 

@@ -37,7 +37,16 @@ struct ContentView: View {
                 Image(systemName: "car")
                 Text("Rides")
             }
-        }
+            
+//            NavigationView {
+//                TestView()
+//            }.tabItem {
+//                Image(systemName: "person")
+//                Text("Profile")
+//            }
+            
+        }.accentColor(.red)
+            
     }
 }
     

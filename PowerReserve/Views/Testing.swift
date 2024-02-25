@@ -1,18 +1,30 @@
+////
+////  Testing.swift
+////  PowerReserve
+////
+////  Created by Sergio Villarreal on 2/24/24.
+////
 //
-//  Testing.swift
-//  PowerReserve
+//import SwiftUI
+//import CoreLocation
 //
-//  Created by Sergio Villarreal on 2/24/24.
+//struct TestView: View {
+//    @State private var locationManager = CLLocationManager()
 //
-
-import SwiftUI
-
-struct Testing: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
-
-#Preview {
-    Testing()
-}
+//    var body: some View {
+//        VStack {
+//            Button("Get My Location") {
+//                self.requestLocationPermission()
+//            }
+//        }
+//    }
+//
+//    func requestLocationPermission() {
+//        locationManager.requestWhenInUseAuthorization()
+//    }
+//}
+//
+//
+//#Preview {
+//    TestView()
+//}

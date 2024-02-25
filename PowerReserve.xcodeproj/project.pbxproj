@@ -18,6 +18,8 @@
 		F7D482372B8A852A008935C1 /* RidesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D482362B8A852A008935C1 /* RidesView.swift */; };
 		F7D4823D2B8A8A9F008935C1 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D4823C2B8A8A9F008935C1 /* ContactsView.swift */; };
 		F7D482402B8AC55E008935C1 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D4823F2B8AC55E008935C1 /* MapView.swift */; };
+		F7D482442B8AE5C6008935C1 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D482432B8AE5C6008935C1 /* Location.swift */; };
+		F7D482482B8AE894008935C1 /* Testing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D482472B8AE894008935C1 /* Testing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		F7D482362B8A852A008935C1 /* RidesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidesView.swift; sourceTree = "<group>"; };
 		F7D4823C2B8A8A9F008935C1 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
 		F7D4823F2B8AC55E008935C1 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		F7D482432B8AE5C6008935C1 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		F7D482472B8AE894008935C1 /* Testing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Testing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,7 @@
 				F7D482362B8A852A008935C1 /* RidesView.swift */,
 				F7D4823C2B8A8A9F008935C1 /* ContactsView.swift */,
 				F7D4823F2B8AC55E008935C1 /* MapView.swift */,
+				F7D482472B8AE894008935C1 /* Testing.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -101,6 +106,7 @@
 				F70DAD882B8A581E00FEA8CE /* Contacts.swift */,
 				F70DAD8A2B8A689B00FEA8CE /* UserClass.swift */,
 				F70DAD8C2B8A6A3900FEA8CE /* AccountClass.swift */,
+				F7D482432B8AE5C6008935C1 /* Location.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -184,10 +190,12 @@
 			files = (
 				F7D482372B8A852A008935C1 /* RidesView.swift in Sources */,
 				F7D482352B8A81DB008935C1 /* ProfileView.swift in Sources */,
+				F7D482442B8AE5C6008935C1 /* Location.swift in Sources */,
 				F70DAD8D2B8A6A3900FEA8CE /* AccountClass.swift in Sources */,
 				F7D482312B8A75AC008935C1 /* ContentView.swift in Sources */,
 				F70DAD8B2B8A689B00FEA8CE /* UserClass.swift in Sources */,
 				F70DAD892B8A581E00FEA8CE /* Contacts.swift in Sources */,
+				F7D482482B8AE894008935C1 /* Testing.swift in Sources */,
 				F7D482402B8AC55E008935C1 /* MapView.swift in Sources */,
 				F7D4823D2B8A8A9F008935C1 /* ContactsView.swift in Sources */,
 				F70DAD792B8A519C00FEA8CE /* PowerReserveApp.swift in Sources */,
@@ -326,6 +334,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"PowerReserve/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to function";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -354,6 +363,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"PowerReserve/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to function";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
