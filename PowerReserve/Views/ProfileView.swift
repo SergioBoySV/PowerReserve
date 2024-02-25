@@ -85,7 +85,7 @@ struct ProfileView: View {
             .padding()
             .padding(.top) // Add extra padding at the top
             
-            
+
         }
     }
 }
