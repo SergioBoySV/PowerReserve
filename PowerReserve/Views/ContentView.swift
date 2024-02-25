@@ -10,10 +10,33 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView {
-//            LoginPage().tabItem { Image(systemName: "house") }
-            ProfileView().tabItem { Image(systemName: "brain.head.profile") }
-            MapView().tabItem { Image(systemName: "map.circle")}
-            ContactsView().tabItem { Image(systemName: "folder.badge.gear")}
+            NavigationView {
+                ProfileView()
+            }.tabItem {
+                Image(systemName: "person")
+                Text("Profile")
+            }
+            
+            NavigationView {
+                MapView()
+            }.tabItem {
+                Image(systemName: "map.circle")
+                Text("Map")
+            }
+            
+            NavigationView {
+                ContactsView()
+            }.tabItem {
+                Image(systemName: "person.3.sequence")
+                Text("Contacts")
+            }
+            
+            NavigationView {
+                RidesView()
+            }.tabItem {
+                Image(systemName: "car")
+                Text("Rides")
+            }
         }
     }
 }
