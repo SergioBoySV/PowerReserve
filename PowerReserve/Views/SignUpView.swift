@@ -16,11 +16,10 @@ struct SignUpView: View {
         GeometryReader { geometry in
             VStack {
                 Spacer()
-                Image("")
+                Image("logo")
                     .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .frame(width: geometry.size.width * 0.5)
-                    .padding(.bottom, 20)
+                    .frame(width: 120, height: 120)
+                    .padding(.bottom, 30)
                 
 //                Spacer()
                 
@@ -57,7 +56,9 @@ struct SignUpView: View {
             .padding()
             .frame(width: geometry.size.width, height: geometry.size.height)
         }
-        .background(Color.black)
+//        .background(Color.black)
+        
+        let newUser = User(name: username, password: password)
     }
 }
 

@@ -14,12 +14,12 @@ struct LoginView: View {
     var body: some View {
         GeometryReader { geometry in
             VStack {
-                Spacer()
-                Image("")
+                Image("logo")
                     .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .frame(width: geometry.size.width * 0.5)
-                    .padding(.bottom, 20)
+                    .frame(width: 120, height: 120)
+                    .padding(.top, 100)
+                
+                Spacer()
                 
 //                Spacer()
                 
@@ -50,7 +50,7 @@ struct LoginView: View {
             .padding()
             .frame(width: geometry.size.width, height: geometry.size.height)
         }
-        .background(Color.black)
+//        .background(Color.black)
     }
 }
 
