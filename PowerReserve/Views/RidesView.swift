@@ -21,7 +21,7 @@ struct RidesView: View {
 
                 Text("Rides Page")
                     .foregroundColor(Color.red)
-                List(items, id: .self) { item in
+                List(items, id: \.self) { item in
                     Text(item + "\t\t\t\t\t\tCall Message")
                 }
                 //.navigationBarTitle("List")
