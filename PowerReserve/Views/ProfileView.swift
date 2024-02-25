@@ -32,9 +32,12 @@ struct ProfileView: View {
         ScrollView {
             VStack(alignment: .leading, spacing: 20) {
                 
+                Spacer(minLength: 10)
+                
                 
                 Text("Bob Builder\n")
                     .font(.largeTitle)
+                    .bold()
 
                 
           /*      // -------------------------- //
@@ -91,6 +94,18 @@ struct ProfileView: View {
             .padding()
             .padding(.top) // Add extra padding at the top
             
+            Spacer(minLength: 300)
+            
+            NavigationLink(destination: LoginOrSignUpView()) {
+                Text("Log out")
+                    .bold()
+                    .padding()
+                    .foregroundColor(.white)
+                    .background(Color.red)
+                    .cornerRadius(8)
+                    .navigationBarBackButtonHidden()
+                    .font(.title)
+            }
 
         }
     }

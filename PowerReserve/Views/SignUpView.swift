@@ -29,13 +29,13 @@ struct SignUpView: View {
                     .cornerRadius(5.0)
                     .padding(.bottom, 20)
                 
-                SecureField("Password", text: $password)
+                TextField("Password", text: $password)
                     .padding()
                     .background(Color.gray.opacity(0.1))
                     .cornerRadius(5.0)
                     .padding(.bottom, 20)
                 
-                SecureField("Confirm Password", text: $confirmPassword)
+                TextField("Confirm Password", text: $confirmPassword)
                     .padding()
                     .background(Color.gray.opacity(0.1))
                     .cornerRadius(5.0)
