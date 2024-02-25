@@ -6,11 +6,23 @@
 //
 
 import SwiftUI
+import Contacts
+
+
 
 struct ContactsView: View {
     var body: some View {
         Text("Contacts Page")
+            .padding()
+            .onAppear(){
+                Task.init{
+                    await fetchAllContacts()
+                }
+            }
+        
     }
+    
+    
 }
 
 #Preview {
