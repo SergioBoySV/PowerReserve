@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C524E1D72B8B464400F4B68C /* ContactsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C524E1D62B8B464400F4B68C /* ContactsModel.swift */; };
+		C524E1DB2B8B849B00F4B68C /* PwrSavingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C524E1DA2B8B849B00F4B68C /* PwrSavingScreen.swift */; };
 		F70DAD792B8A519C00FEA8CE /* PowerReserveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70DAD782B8A519C00FEA8CE /* PowerReserveApp.swift */; };
 		F70DAD7D2B8A519D00FEA8CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F70DAD7C2B8A519D00FEA8CE /* Assets.xcassets */; };
 		F70DAD802B8A519D00FEA8CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F70DAD7F2B8A519D00FEA8CE /* Preview Assets.xcassets */; };
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		C524E1D62B8B464400F4B68C /* ContactsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsModel.swift; sourceTree = "<group>"; };
+		C524E1DA2B8B849B00F4B68C /* PwrSavingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PwrSavingScreen.swift; sourceTree = "<group>"; };
 		F70DAD752B8A519C00FEA8CE /* PowerReserve.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PowerReserve.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F70DAD782B8A519C00FEA8CE /* PowerReserveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerReserveApp.swift; sourceTree = "<group>"; };
 		F70DAD7C2B8A519D00FEA8CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				F7373C4B2B8B155F00CEDA5A /* LoginView.swift */,
 				F7373C4D2B8B160C00CEDA5A /* LoginOrSignUpView.swift */,
 				F7373C4F2B8B3BE100CEDA5A /* ContentView.swift */,
+				C524E1DA2B8B849B00F4B68C /* PwrSavingScreen.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7D482372B8A852A008935C1 /* RidesView.swift in Sources */,
+				C524E1DB2B8B849B00F4B68C /* PwrSavingScreen.swift in Sources */,
 				F7D482352B8A81DB008935C1 /* ProfileView.swift in Sources */,
 				F7373C522B8B5C5C00CEDA5A /* UserLists.swift in Sources */,
 				F7D482442B8AE5C6008935C1 /* Location.swift in Sources */,
